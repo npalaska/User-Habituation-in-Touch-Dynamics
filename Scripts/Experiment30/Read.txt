@@ -1,0 +1,4 @@
+Constants: Device 1, Posture 1
+This script will generate 31 files (as we have 31 users) with each file representing the raw data set from respective users.
+The naming convention is 'device-User-posture-G.csv' here G stands for Genuine.
+Each file will contain the same number of strokes.

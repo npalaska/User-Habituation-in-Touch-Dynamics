@@ -1,0 +1,8 @@
+Constants: Device1, Posture 1
+This script will simply append the genuine train and test files from experiment 4 with imposture train and test files respectively from experiment 5.
+So now we have the complete train and test data consisting of genuine and imposture data to use for the classifier.
+From experiment 5 we know that we have 10 Imposture Train and Test files from every user and from experiment 4 we know that we have 3 blocks of genuine train and test data.
+In total we will get 30 test and 30 train files for every user based on distinct combination of block and fold.
+The naming convention is 'device-user-posture-train/test-block-fold'.
+the files will be saved under Output Files/Experiment6/GIUserNumber.
+Every User will have its separate folder containing its complete train and test files (consisting of half genuine and half imposture data)

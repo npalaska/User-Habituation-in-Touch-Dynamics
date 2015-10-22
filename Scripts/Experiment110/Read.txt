@@ -1,0 +1,1 @@
+the most important features selected by the tree based classifier are [2, 6, 7, 9, 12, 13, 14, 15, 16, 17] ignoring first 3 columns as they are constants.

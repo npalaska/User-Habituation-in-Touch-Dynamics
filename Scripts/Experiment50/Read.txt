@@ -1,0 +1,8 @@
+Constants: Device 1, Posture 1
+This script will generate the imposture data that we need to join with the Genuine data from experiment 4.
+As we know that the genuine data from experiment 4 has been divided into 3 equal blocks and each block is been divided into 2 parts as Train and Test data.
+For the classifier, The training data must contain the data from genuine and imposture, we decided that the whole training data should contain half genuine and half imposture.
+For a good classifier the whole training data must have the imposture data from each other user along with genuine data.
+So we decided to take the equal number of imposture strokes from each other user.
+So for every user we will have imposture strokes from 30 different users.
+we will generate 10 different files(10 folds) of randomly selected imposture strokes for each user and then divide each file in 2 equal parts to get imposture training and testing data.

@@ -1,0 +1,2 @@
+In this script we will use different classifier algorithms to train the data and test it on the given set of samples.
+The Script will generate ROC characteristics for every classifier algorithm (fpr, tpr), Area under the curve, and Equal Error rate for every distinct combination of train and test file.

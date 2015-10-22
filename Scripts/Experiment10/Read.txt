@@ -1,0 +1,4 @@
+Constants: Device 1, Posture 1.
+The Script will generate the Mahalanobis distance between the means of successive groups of 5 strokes for every user. For calculating the M-Distance we are only considering the first 4 features.
+It will generate the matrix of 31 columns (users) and ((total length of row data)/5) no of rows where each value in every column represent the mahalanobis distance between the means of successive group of strokes stating from top to bottom.
+The generated file will be under Output Files/Experiment1.

@@ -1,0 +1,6 @@
+constants: Device 1, Posture 1
+This script do the following:
+1. Divide each file generated from the experiment 3 into 3 blocks with equal number of strokes starting from top to bottom with the name convention 'Device-User-Posture-G-Block'.
+2. Generate Train and Test file from every block (Alternate strokes has been chosen for train and test file) with name convention 'Device-User-Posture-G-Train/Test-Block'.
+
+The generated Train and Test files are Genuine Train and Test files because each file contain the strokes only from distinct unique user.
